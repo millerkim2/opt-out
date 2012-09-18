@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SendDROID Opt-out</string>
+    <string name="button_description">I Don\'t Want SendDROID Ads</string>
+    <string name="fail_string">Could not get device ID.  Please contact us at support@senddroid.com for help.</string>
+    <string name="error">Failed to opt out of SendDROID Ads. Please try again later.</string>
+    <string name="goodby">Your opt out is being processed.  Allow 24-48 hours for completion.  We\'re sorry to see you go!</string>
+</resources>

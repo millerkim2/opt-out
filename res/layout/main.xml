@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+    <ImageView android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:background="@drawable/logo"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:background="@drawable/optout_button"
+        android:clickable="true"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/failText"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/fail_string"
+        android:background="@android:color/transparent"
+        android:textColor="#ffff0000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_centerInParent="true" />
+
+    <RelativeLayout android:id="@+id/disabler"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:background="#88000000"
+        android:clickable="true"
+        android:visibility="gone" >
+        <ProgressBar android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            style="@android:style/Widget.ProgressBar" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/deviceIdTextbox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:textColor="#ff000000"
+        android:textStyle="bold"
+        android:textSize="8pt" />
+
+</RelativeLayout>
